@@ -1,0 +1,77 @@
+body {
+    background-color: #FAFAF9;
+    font-family: Sora;
+}
+
+.minimalism-card-container {
+    display: flex;
+    width: 100wh;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.minimalism-card{
+    display: flex;
+    height: 400px;
+    width: 350px;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px 3px #E5EAF0;
+    padding: 6px;
+    padding-top: 12px;
+    border-radius: 18px;
+}
+
+.info {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+}
+
+.img {
+    width: 320px;
+    height: 150px;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.sub-title {
+    width: 50px;
+    padding: 3px 10px;
+    background-color: #E6D6FC;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 50px;
+    color: #883AE1;
+    display: flex;
+    justify-content: center;
+}
+
+.description h3 {
+    color: #20293A;
+}
+
+.description p {
+    color: #6C727F;
+    font-size: 14px;
+}
+
+.creator-container {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #E5EAF0;
+    margin-top: 18px;
+}
+
+.creator {
+    color: #6C727F;
+    font-size: 14px;
+}
